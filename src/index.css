@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+  @media screen and (max-width :1208px) {
+      .coin {
+        width: 428px;
+        height: 274px;
+      }
+
+      .display-coin {
+        justify-content: center;
+      }
+
+    }
+
+ .coin {
+      width: 330px;
+      height: 267px;
+      /* background-color: rgb(36, 36, 36);
+      color: white; */
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      border-radius: 10px;
+      margin: 20px;
+      text-align: center;
+    }
